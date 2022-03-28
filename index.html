@@ -1,22 +1,33 @@
-<!-- Testing github push -->
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8">
-<title>Page Title</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
-<style>
-</style>
-<script src=""></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Code Quiz</title>
+</head>
 
 <body>
-
-    <img src="img_la.jpg" alt="LA" style="width:100%">
-
-    <div class="">
-        <h1>Quiz game coming in the next couple days</h1>
+    <header class="page-header">
+        <a href="hs.html" alt="View Highscores">
+            <h3>View Highscores</h3>
+        </a>
+        <p>Seconds left: <span class="timer">90</span></p>
+    </header>
+    <div id="wrapper">
+        <div id="container">
+            <h2>Skyrim Quiz</h2>
+            <p>Try to answer the following questions about the fifth installment of 
+                the popular Elder Scrolls game series, Skyrim. Keep in mind that incorrect
+                answers will subtract 10 seconds from the remaining time! Good luck!
+            </p>
+            <button type="button" id="start-button">Start Quiz</button>
+        </div>
     </div>
-
 </body>
+
+<script src="./assets/js/start.js"></script>
 
 </html>

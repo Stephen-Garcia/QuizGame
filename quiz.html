@@ -1,21 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8">
-<title>Page Title</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
-<style>
-</style>
-<script src=""></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Code Quiz</title>
+</head>
+
 <body>
-
-<img src="img_la.jpg" alt="LA" style="width:100%">
-
-<div class="">
- <h1>This is a Heading</h1>
- <p>This is a paragraph.</p>
- <p>This is another paragraph.</p>
-</div>
-
+    <header class="page-header">
+        <a href="hs.html" alt="View Highscores">
+            <h3>View Highscores</h3>
+        </a>
+        <p>Seconds left: <span id="timer"></span></p>
+    </header>
+    <div id="wrapper">
+        <div id="container">
+            <h2 id="question-title"></h2>
+            <ul id="question-options">
+                <li class="option" data-answer="false"></li>
+                <li class="option" data-answer="false"></li>
+                <li class="option" data-answer="false"></li>
+                <li class="option" data-answer="false"></li>
+            </ul>
+            <hr>
+            <span id="result"></span>
+        </div>
+    </div>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="assets/js/quiz.js"></script>
+
 </html>
